@@ -8,7 +8,21 @@ router.get('/properties/:PROPERTY_ID/bookings', (req, res, next) => {
   try{
     dataHelper.getBookingsByProperty(propertyId)
     .then(data => {
-      return res.status(200).json(data)
+      return res.status(200).json({ bookings : data })
+    })
+  } catch(err){
+    next(err)
+  }
+})
+
+
+// Return bookings by user
+router.get('/users/:USER_ID/bookings', (req, res, next) => {
+  let userId = req.params['USER_ID']
+  try{
+    dataHelper.getBookingsByUser(userId)
+    .then(data => {
+      return res.status(200).json({ bookings : data })
     })
   } catch(err){
     next(err)

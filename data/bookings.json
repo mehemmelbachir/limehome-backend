@@ -42,5 +42,60 @@
 		"property_id": "276aabd1-66e5aef6f3c9061521a196418d2513db",
 		"property_name": "Hotel im Hof",
 		"city": "Munich"
+	},
+	{
+		"user": {
+			"email": "mehemmel-bachir@hotmail.com",
+			"fullName": "Bachir Mehemmel"
+		},
+		"fromDate": "2019-05-12T10:00:00.000Z",
+		"toDate": "2019-05-22T10:00:00.000Z",
+		"property_id": "276u281z-7fb839f1291049f6b65797cf858606de",
+		"property_name": "K.St.V. Albertia",
+		"city": "Munich"
+	},
+	{
+		"user": {
+			"email": "bachir.m@citadel-software.net",
+			"fullName": "Bachir"
+		},
+		"fromDate": "2019-05-12T10:00:00.000Z",
+		"toDate": "2019-05-22T10:00:00.000Z",
+		"property_id": "276jx7ps-e0db6adbbc730a6ce8d3d3600548795f",
+		"property_name": "Pension Josefine",
+		"city": "Munich"
+	},
+	{
+		"user": {
+			"email": "mehemmel-bachir@hotmail.com",
+			"fullName": "mehemmel-bachir@hotmail.com"
+		},
+		"fromDate": "2019-05-12T10:00:00.000Z",
+		"toDate": "2019-05-22T10:00:00.000Z",
+		"property_id": "276jx7ps-e0db6adbbc730a6ce8d3d3600548795f",
+		"property_name": "Pension Josefine",
+		"city": "Munich"
+	},
+	{
+		"user": {
+			"email": "mehemmel.bachir@gmail.com",
+			"fullName": "mehemmel.bachir@gmail.com"
+		},
+		"fromDate": "2019-05-12T10:00:00.000Z",
+		"toDate": "2019-05-22T10:00:00.000Z",
+		"property_id": "276jx7ps-e0db6adbbc730a6ce8d3d3600548795f",
+		"property_name": "Pension Josefine",
+		"city": "Munich"
+	},
+	{
+		"user": {
+			"email": "mehemmel-bachir@hotmail.com",
+			"fullName": "mehemmel-bachir@hotmail.com"
+		},
+		"fromDate": "2019-05-12T10:00:00.000Z",
+		"toDate": "2019-05-22T10:00:00.000Z",
+		"property_id": "276u281z-05a7b32b2e6c4b9ea15018e9772e985c",
+		"property_name": "Jugendwohnheim Zieblandstraße",
+		"city": "Munich"
 	}
 ]

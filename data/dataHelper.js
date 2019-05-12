@@ -41,7 +41,20 @@ module.exports = {
 
   getBookingsByUser : function(userEmail){
     return new Promise((resolve, reject) => {
-
+      // Check file reading permission
+      fs.access(filepath, fs.constants.F_OK, err => {
+        if(err){ reject(err) }
+        // Read the json file
+        fs.readFile(filepath, (err, data) => {
+          if(err){ reject(err) }
+          let bookings = JSON.parse(data)
+          // filter bookings
+          bookings = bookings.filter(v => v.user.email == userEmail)
+          // Map to remove user object
+          bookings.map(booking => { delete booking.user })
+          resolve(bookings)
+        })
+      })
     })
   }
 

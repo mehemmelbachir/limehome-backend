@@ -2,9 +2,7 @@ var express = require('express');
 var router = express.Router();
 const dataHelper = require('../../../data/dataHelper');
 
-// var bookings = require('../../../data/bookings.json')
-
-
+// Create booking request
 router.post('/',(req, res, next) => {
   let booking = req.body
   try {
