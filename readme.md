@@ -9,7 +9,7 @@ This project was generated with [express application generator](https://expressj
 
 ## Development server
 
-Run `npm start` for a dev server. The app will automatically load on this address: `http://localhost:3000/`
+Run `npm start` for a dev server. The app will automatically run on this address: `http://localhost:3000/`
 
 ## TODO:
 - Add database, data are stored on `./data/bookings.json`.
