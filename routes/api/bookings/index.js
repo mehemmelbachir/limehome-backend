@@ -6,10 +6,12 @@ const dataHelper = require('../../../data/dataHelper');
 
 
 router.post('/',(req, res, next) => {
-  let data = req.body
+  let booking = req.body
   try {
-    dataHelper.addBooking(data)
-    return res.status(201).json(data)
+    dataHelper.addBooking(booking)
+    .then(resp => {
+      return res.status(201).json(resp)
+    })
   }catch(err){
     next(err)
   }

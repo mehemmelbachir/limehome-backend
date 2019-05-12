@@ -1,0 +1,46 @@
+[
+	{
+		"user": {
+			"email": "mehemmel-bachir@hotmail.com",
+			"fullName": "Mehemmel Bachir"
+		},
+		"fromDate": "2019-05-12T10:00:00.000Z",
+		"toDate": "2019-05-22T10:00:00.000Z",
+		"property_id": "276u281z-c185b77f78cb4e6298a4be6651816374",
+		"property_name": "Maxvorstadt Studio",
+		"city": "Munich"
+	},
+	{
+		"user": {
+			"email": "bachir.m@citadel-software.net",
+			"fullName": "Bachir Mehemmel"
+		},
+		"fromDate": "2019-05-12T10:00:00.000Z",
+		"toDate": "2019-06-13T10:00:00.000Z",
+		"property_id": "276u281z-c185b77f78cb4e6298a4be6651816374",
+		"property_name": "Maxvorstadt Studio",
+		"city": "Munich"
+	},
+	{
+		"user": {
+			"email": "im.hof@gmail.com",
+			"fullName": "Im Hof user"
+		},
+		"fromDate": "2019-05-12T10:00:00.000Z",
+		"toDate": "2019-05-22T10:00:00.000Z",
+		"property_id": "276aabd1-66e5aef6f3c9061521a196418d2513db",
+		"property_name": "Hotel im Hof",
+		"city": "Munich"
+	},
+	{
+		"user": {
+			"email": "daniel.wieczorek@medisinn.de",
+			"fullName": "Daniel Wieczorek"
+		},
+		"fromDate": "2019-05-12T10:00:00.000Z",
+		"toDate": "2019-06-01T10:00:00.000Z",
+		"property_id": "276aabd1-66e5aef6f3c9061521a196418d2513db",
+		"property_name": "Hotel im Hof",
+		"city": "Munich"
+	}
+]
